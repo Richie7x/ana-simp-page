@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(160, 198, 192);
+    /* text-align: center; */
+}
+
+#container{
+    margin: 0 auto;
+    width: 70vw;
+    background-color: #67bfa6;
+    /* background: linear-gradient(#67bfa6, #8bfffd); */
+    box-shadow: 0px 0px 20px gray;
+    /* border : 5px solid black; */
+}
+
+#header{
+    /* border : 5px solid red; */
+    /* background-color: red; */
+    height: 400px;
+    position: relative;
+    border-bottom: 3px solid #599f8c;
+}
+
+#anavideo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+#ana-pfp{
+    border-radius: 100%;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 37%;
+    border: 6px solid rgb(238, 253, 255);
+}
+
+#text-section{
+    color: rgb(236, 255, 251);
+    text-shadow: 0px 0px 2px rgb(23, 65, 53);
+    text-align: center;
+    width: 400px;
+    margin: 150px auto 0px;
+    font-size: 30px;
+}
+
+#gif-section{
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gif-row{
+    /* border:5px solid black; */
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gif{
+    border: 5px solid  rgb(238, 253, 255);
+    border-radius: 15px;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background-image: url("assets/pattern.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #49dcb5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.gif:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+#zero-zero:hover{
+    background-image: url("assets/gifs/00.gif");
+}
+
+#zero-one:hover{
+    background-image: url("assets/gifs/01.gif");
+}
+
+#zero-two:hover{
+    background-image: url("assets/gifs/02.gif");
+}
+
+#one-zero:hover{
+    background-image: url("assets/gifs/10.gif");
+}
+
+#one-one:hover{
+    background-image: url("assets/gifs/11.gif");
+}
+
+#one-two:hover{
+    background-image: url("assets/gifs/12.gif");
+}
+
+#two-zero:hover{
+    background-image: url("assets/gifs/20.gif");
+}
+
+#two-one:hover{
+    background-image: url("assets/gifs/21.gif");
+}
+
+#two-two:hover{
+    background-image: url("assets/gifs/22.gif");
+}
+
+.footer{
+    text-align: center;
+    background-image: url("assets/footer.png");
+    background-size: cover;
+    margin: 50px auto 0px;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.footer-child{
+    /* background-color: rgba(0, 0, 0, 0.61); */
+    border: 3px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+
+}
+
+.footer-child > h3 {
+    color: rgb(236, 255, 251);
+    text-shadow: 0px 0px 2px black;
+}
+
+.footer-child > a{
+    color: rgb(236, 255, 251);
+    text-decoration: none;
+}
