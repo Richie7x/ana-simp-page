@@ -145,11 +145,11 @@ body{
 }
 
 .footer-child > h3 {
-    color: rgb(236, 255, 251);
+    color: rgb(238, 253, 255);
     text-shadow: 0px 0px 2px black;
 }
 
 .footer-child > a{
-    color: rgb(236, 255, 251);
+    color: rgb(238, 253, 255);
     text-decoration: none;
 }
